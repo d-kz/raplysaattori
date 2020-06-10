@@ -116,6 +116,7 @@ def read_lyrics(lyrics_dir='lyrics_en', artist=None, album=None,
         print '%d.\t%.3f\t%s' % (i+1, artist_scores[i], name)
 
 def sort_albums_by_year(albums):
+    ''''''
     years = []
     for a in albums:
         m = re.match('.+y(\d\d\d\d)y$', a)
